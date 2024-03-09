@@ -1,3 +1,8 @@
 - git init: Inicializa un nuevo repositorio Git local. Esto prepara el directorio actual para tener un seguimiento de Git.
 - git add .: Añadimos los cambios (creacion de historia.txt, versión inicial de la descripción del proceso de control, directorios creados y plantillas) a la staging area
 - git commit -m  "Estructura de directorios inicial y documentos de la versión 1 añadidos": Realiza un commit de los cambios que están en el área de preparación con un mensaje descriptivo.
+- git tag -a R1 -m "Versión inicial del documento de control de cambios":Creamos una etiqueta anotada para este estado y lo marcamos como la versión “R1”
+- git branch Mejoras: Creamos la rama Mejoras
+- git checkout Mejoras: Nos pasamos a esta rama
+- git add .: Añadimos los cambios hechos en Mejoras a la stagin area
+- git commit -m "Actualizada documentación y plantillas a la versión 2": Realizamos el commit de los cambios que están en el área de preparación con un mensaje descriptivo.
