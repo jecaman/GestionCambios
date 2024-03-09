@@ -6,3 +6,4 @@
 - git checkout Mejoras: Nos pasamos a esta rama
 - git add .: Añadimos los cambios hechos en Mejoras a la stagin area
 - git commit -m "Actualizada documentación y plantillas a la versión 2": Realizamos el commit de los cambios que están en el área de preparación con un mensaje descriptivo.
+
