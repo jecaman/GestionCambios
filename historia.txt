@@ -1,0 +1,3 @@
+- git init: Inicializa un nuevo repositorio Git local. Esto prepara el directorio actual para tener un seguimiento de Git.
+- git add .: Añadimos los cambios (creacion de historia.txt, versión inicial de la descripción del proceso de control, directorios creados y plantillas) a la staging area
+- git commit -m  "Estructura de directorios inicial y documentos de la versión 1 añadidos": Realiza un commit de los cambios que están en el área de preparación con un mensaje descriptivo.
