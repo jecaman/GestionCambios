@@ -6,4 +6,16 @@
 - git checkout Mejoras: Nos pasamos a esta rama
 - git add .: Añadimos los cambios hechos en Mejoras a la stagin area
 - git commit -m "Actualizada documentación y plantillas a la versión 2": Realizamos el commit de los cambios que están en el área de preparación con un mensaje descriptivo.
+- git checkout master: Nos cambiamos a la rama Master
+- git merge Mejoras: Fundimos la rama con el master/main aceptando todos los cambios realizados en ella
+- git branch -d Mejoras: Borramos la rama mejoras
+- git add .: Eliminacion del pdf con cambios propuestos, lo pasamos a la staging area
+- git commit -m "Pdf de cambios propuestos eliminado": Hacemos el commit 
+- git tag -a R2 -m "Versión 2 del documento de control de cambios":Creamos una etiqueta anotada para este estado y lo marcamos como la versión “R2”
+- git add .: Cambiamos la v2 por la v3, lo pasamos a la staging area
+- git commit -m "Version v2 actualizada a v3": Hacemos el commit 
+- git reset --soft HEAD~1: Volvemos al último commit manteniendo todos los cambios en los archivos
+- git add .: Incluimos plantillas de la v3, lo pasamos a la staging area
+- git commit -m "Plantillas de v3 incluidas": Hacemos el commit 
+- git tag -a R3 -m "Versión 3 del documento de control de cambios":Creamos una etiqueta anotada para este estado y lo marcamos como la versión “R3”
 
