@@ -23,4 +23,5 @@
 - git commit -m "Actualizacion del archivo hsitoria.txt con todos los comandos"
 - git push origin master: Hacemos el push de la rama principal
 - git push origin --tags: Hacemos el push de los tags
+- git pull origin master: Traemos los últimos cambios del repositorio remoto y los fusionamos con la rama local
 
