@@ -18,4 +18,9 @@
 - git add .: Incluimos plantillas de la v3, lo pasamos a la staging area
 - git commit -m "Plantillas de v3 incluidas": Hacemos el commit 
 - git tag -a R3 -m "Versión 3 del documento de control de cambios":Creamos una etiqueta anotada para este estado y lo marcamos como la versión “R3”
+- git remote add origin https://github.com/jecaman/GestionCambios.git: configuramos nuestro repositorio remoto apuntando a nuestro repositorio en GitHub
+- git add. 
+- git commit -m "Actualizacion del archivo hsitoria.txt con todos los comandos"
+- git push origin master: Hacemos el push de la rama principal
+- git push origin --tags: Hacemos el push de los tags
 
