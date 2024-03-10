@@ -24,4 +24,11 @@
 - git push origin master: Hacemos el push de la rama principal
 - git push origin --tags: Hacemos el push de los tags
 - git pull origin master: Traemos los últimos cambios del repositorio remoto y los fusionamos con la rama local
+- git add .
+- git commit -m "Modificacion historia.txt": Añadimos a historia el comando "git pull origin master"
+- git diff master origin/master -- historia.txt: Vemos las diferencias entre la historia.txt del repositorio local y del remoto
+- git add .
+- git commit -m "Modificacion historia.txt": Añadimos a historia el comando "git push origin master" antes de hacer el push
+- git push origin master
+
 
